@@ -8,6 +8,8 @@ class firstGroovyProgram{
         System.out.println("Dog is named: " + dog1.getName());
         System.out.println("Dog is " + dog1.getAge() + " year(s) old");
         dog1.makeSound();
+
+        Dog dog2 = new Dog();
     }
 }
 
