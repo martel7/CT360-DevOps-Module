@@ -49,7 +49,7 @@ public class Dog extends Animal{
         System.out.println("An instance of a dog was created with a hash code:     " + this.hashCode());
     }
 
-    public void Dog(int age, String name){
+    public Dog(int age, String name){
         this.age = age;
         this.name = name;
     }
