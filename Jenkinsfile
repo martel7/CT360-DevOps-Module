@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'sudo docker build -t martel7/ct360:latest .'
+				sh 'docker build -t martel7/ct360:latest .'
 			}
 		}
 
