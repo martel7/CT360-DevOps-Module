@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t martel7/ct360:latest .'
+				sh 'docker build -t dusan77/test:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push dusan77/test/ct360:latest'
+				sh 'docker push dusan77/test:latest'
 			}
 		}
 	}
