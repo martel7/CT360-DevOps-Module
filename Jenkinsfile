@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push martel7/CT360-DevOps-Module:latest'
+				sh 'docker push martel7/ct360:latest'
 			}
 		}
 	}
